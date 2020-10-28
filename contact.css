@@ -1,0 +1,29 @@
+.contact{
+ 
+}
+.contact.contact-list{
+  padding: left 0;
+    list-style: none;
+}
+ 
+  .contact-list a {
+    
+    
+    display: inline;
+  
+    
+    background-color: black;
+    color: white;
+    margin-bottom: var(--space-medium);
+    padding: var(--space-small);
+    
+  }
+  
+  
+  .contact-list a:hover {
+    text-decoration: none;
+  background-color: cornsilk;
+    color: black;
+    border: solid var(--space-smaller) black;
+  }
+  

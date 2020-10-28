@@ -1,0 +1,40 @@
+
+/* This file is created to to take care of the design part of 
+the section Work Experience and Education */
+.content{
+    
+}
+.content.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+
+
+
+    .content.subtitles{
+    font-size:  12px;
+    font-weight: 100;
+   font: #666666;
+    }
+
+
+    @media (min-width: 550px){
+        .content.grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: var(--space-medium);
+
+        }
+    }
+    @media(min-width : 750px){
+        .content.grid{
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: var(--space-big);
+
+        }
+    }
+
+
+
+
+

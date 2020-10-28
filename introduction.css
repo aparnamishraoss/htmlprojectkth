@@ -1,0 +1,35 @@
+/* this page will take care of the design for 
+introduction part*/
+.introduction{
+ 
+}
+.introduction.centre{
+    text-align: center;
+}
+
+/*.introduction.personal-info {
+    text-align: center;
+    
+}*/
+.introduction.subtitle{
+    font-size: 45px;
+}
+
+.introduction.avatar{
+    border:solid 6px black;
+    border-radius: 500px;
+    width: 165px;
+    height: 150px;
+}
+/* desktop*/
+@media (min-width: 750px){
+    .introduction.personal-info{
+        display: flex;
+        align-items: center;
+    }
+}
+.introduction.avatar{
+    margin-right: var(--space-big);
+}
+
+
